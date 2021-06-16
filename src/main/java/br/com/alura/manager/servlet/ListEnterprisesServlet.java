@@ -5,7 +5,6 @@ import java.util.List;
 
 import br.com.alura.manager.dao.Bank;
 import br.com.alura.manager.model.Enterprise;
-import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -20,8 +19,7 @@ public class ListEnterprisesServlet extends HttpServlet {
 		Bank bank = new Bank();
 		
 		List<Enterprise> enterprises = bank.getEnterprise();
-		RequestDispatcher rd = req.getRequestDispatcher("/list-enterprises.jsp");
 		req.setAttribute("enterprises", enterprises);
-		rd.forward(req, resp);
+		req.getRequestDispatcher("/list-enterprises.jsp").forward(req, resp);
 	}
 }
