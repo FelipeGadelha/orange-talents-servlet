@@ -9,6 +9,7 @@
 		<meta charset="ISO-8859-1">
 		<title>Insert title here</title>
 		<link rel="stylesheet" href="list-enterprise.style.css" />
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		Bem vindo no curso Servlets da Alura! <br/><br/>

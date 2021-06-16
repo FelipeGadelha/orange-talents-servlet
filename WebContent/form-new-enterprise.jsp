@@ -5,18 +5,19 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
-
-	<form action="${ linkServletNewEnterprise }" method="post">
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Insert title here</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
 	
-		Nome <br/><input type="text" name="name"  /><br/><br/>
-		Data Abertura <br/><input type="text" name="date"  /><br/><br/>
-		<input type="submit" />
-	</form>
-
-</body>
+		<form action="${ linkServletNewEnterprise }" method="post">
+		
+			Nome <br/><input type="text" name="name"  /><br/><br/>
+			Data Abertura <br/><input type="text" name="date"  /><br/><br/>
+			<input type="submit" class="btn btn-add"/>
+		</form>
+	
+	</body>
 </html>

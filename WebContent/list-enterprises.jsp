@@ -14,6 +14,7 @@
 		<meta charset="ISO-8859-1">
 		<title>Java Standard Taglib</title>
 		<link rel="stylesheet" href="list-enterprise.style.css" />
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<c:if test="${ not empty enterprise }">
