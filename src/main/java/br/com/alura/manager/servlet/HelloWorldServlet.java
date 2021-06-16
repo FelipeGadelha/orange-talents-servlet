@@ -22,8 +22,6 @@ public class HelloWorldServlet extends HttpServlet{
 		out.println("oi mundo, parabens vc escreveu o primeiro servlets.");
 		out.println("</body>");
 		out.println("</html>");
-		
-		System.out.println("o servlet foi chamado");
 	}
 	
 }

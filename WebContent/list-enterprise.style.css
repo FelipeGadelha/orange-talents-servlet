@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+.btn {
+	height: 25px;
+    background: #32923b;
+	border: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn-add {
+	background: #3339ab;
+}
+.btn-update {
+	background: #32923b;
+}
+.btn-remove {
+	background: #e02041;
+}
+
